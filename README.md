@@ -2,7 +2,7 @@
 
 This project performs **real-time facial emotion detection** using a custom-trained **Convolutional Neural Network (CNN)** on grayscale facial images. It uses **OpenCV** for webcam-based face detection, **TensorFlow/Keras** for deep learning, and **Tkinter** for a GUI interface to control and visualize results.
 
-## 📌 Features
+## Features
 
 - Train a CNN model on your own facial emotion dataset
 - Real-time emotion detection from webcam feed
@@ -12,9 +12,10 @@ This project performs **real-time facial emotion detection** using a custom-trai
 
 ---
 
-## 🧠 Dataset Format
+## Dataset Format
 
 The dataset directory (`data/`) should be structured as follows:
+
 Used data: [https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer]
 
 ```
@@ -32,7 +33,7 @@ Each folder should contain grayscale `.jpg` or `.png` face images sized 48x48 or
 
 ---
 
-## 🧪 Model Architecture
+## Model Architecture
 
 - 3 convolutional blocks with `Conv2D`, `MaxPooling2D`, and `Dropout`
 - Fully connected layer followed by `BatchNormalization` and `Dropout`
@@ -40,7 +41,7 @@ Each folder should contain grayscale `.jpg` or `.png` face images sized 48x48 or
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Install dependencies using:
 
@@ -56,7 +57,7 @@ pip install tk
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. **Train the Model**
 
@@ -81,7 +82,7 @@ Emotions detected will be saved in a file named: `emotion_log.json`.
 
 ---
 
-## 📊 Sample JSON Log Format
+## Sample JSON Log Format
 
 ```json
 {
@@ -99,13 +100,13 @@ Emotions detected will be saved in a file named: `emotion_log.json`.
 
 ---
 
-## 🖼️ Emotion Distribution Graph
+## Emotion Distribution Graph
 
 After running detection, you can click **"Plot Emotion Distribution"** to see a bar chart summarizing all detected emotions.
 
 ---
 
-## 💡 Notes
+## Notes
 
 - Ensure a good light environment for better face detection.
 - Use a dataset with a balanced number of images per class for better accuracy.
@@ -113,7 +114,7 @@ After running detection, you can click **"Plot Emotion Distribution"** to see a 
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 - Integrate audio-based emotion detection
 - Provide video input instead of just webcam
@@ -122,7 +123,7 @@ After running detection, you can click **"Plot Emotion Distribution"** to see a 
 
 ---
 
-## 🙌 Credits
+## Credits
 
 Developed by **Ahana**  
 Project for **Emotion Detection** coursework at Bennett University  
